@@ -1,0 +1,44 @@
+{
+  "name": "grunt-json-massager",
+  "description": "Modify JSON files with functions.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/leinster/grunt-json-massager",
+  "author": {
+    "name": "Jon Ramsey",
+    "email": "jonathon.ramsey@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leinster/grunt-json-massager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leinster/grunt-json-massager/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/leinster/grunt-json-massager/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin", "json"
+  ]
+}
