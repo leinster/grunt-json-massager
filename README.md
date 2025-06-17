@@ -1,6 +1,6 @@
 # grunt-json-massager
 
-Modify JSON files with functions.
+Modify JSON files with functions. Briefly useful in 2013, archived 2025.
 
 ## Installation
 This plugin requires Grunt `~0.4.1`
